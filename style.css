@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-#banner{
+#banner, #courses{
     margin-bottom: 8rem;
 }
 .primary-clr{
@@ -46,6 +46,7 @@ body{
 }
 
 .btn-edu{
+    display: inline-block;
     background: #289BDE;
     color: #FFFFFF;
     border: none;
