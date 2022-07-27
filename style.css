@@ -6,3 +6,78 @@ body{
 .primary-clr{
     color: #4A4A4A;
 }
+
+.carousel-item{
+    height: 90vh;
+    min-height: 400px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+}
+.carousel-caption{
+    bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.carousel-caption h1{
+    font-size: 65px;
+}
+
+.btn-edu{
+    background: #289BDE;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 33px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+
+@media only screen and (max-width:768px){
+    .carousel-item{
+        height: 60vh;
+    }
+    .carousel-caption{
+        position: absolute;
+        left: 0%;
+        bottom: 5rem;
+        width: 100%; 
+        padding: 0 2rem; 
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:992px){
+
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+
+}
+
+
+
+ 
