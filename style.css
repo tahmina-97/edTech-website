@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-#banner, #courses{
+#banner, #courses, #register{
     margin-bottom: 8rem;
 }
 .primary-clr{
@@ -53,6 +53,19 @@ body{
     padding: 13px 33px;
     font-weight: bold;
     font-size: 20px;
+}
+.btn-reg{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #289BDE;
+    border: none;
+    padding: 11px 18px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.enroll{
+    background-color: #289BDE;
 }
 
 
