@@ -3,6 +3,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+#banner{
+    margin-bottom: 8rem;
+}
 .primary-clr{
     color: #4A4A4A;
 }
@@ -48,9 +52,8 @@ body{
     padding: 13px 33px;
     font-weight: bold;
     font-size: 20px;
-
-
 }
+
 
 
 @media only screen and (max-width:768px){
@@ -67,6 +70,13 @@ body{
     .carousel-caption h1{
         font-size: 30px;
     }
+    .card-body h5{
+        font-size: 16px;
+    }
+    .card-body p{
+        font-size: 14px;
+    }
+
 
 }
 
