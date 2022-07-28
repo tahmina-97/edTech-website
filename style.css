@@ -4,8 +4,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-#banner, #courses, #register{
-    margin-bottom: 8rem;
+#banner, #courses, #register, #faq, #trusted{
+    margin-bottom: 7rem;
 }
 .primary-clr{
     color: #4A4A4A;
@@ -37,8 +37,8 @@ body{
 }
 .carousel-caption{
     bottom: 70px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
 
 }
 .carousel-caption h1{
@@ -64,11 +64,16 @@ body{
     font-size: 20px;
     border-radius: 5px;
 }
+.btn-reg:hover{
+    background-color: #0d6efd;
+    color: #FFFFFF;
+}
 .enroll{
     background-color: #289BDE;
 }
-
-
+footer>div{
+    height: 472px;
+}
 
 @media only screen and (max-width:768px){
     .carousel-item{
@@ -91,6 +96,14 @@ body{
         font-size: 14px;
     }
 
+    footer>div{
+        height: 250px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    
+
 
 }
 
@@ -99,6 +112,11 @@ body{
     .carousel-caption h1{
         font-size: 40px;
     }
+
+    footer>div{
+        height: 332px;
+    }
+    
 
 }
 
