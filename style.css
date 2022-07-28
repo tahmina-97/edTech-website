@@ -4,9 +4,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-#banner, #courses, #register, #faq, #trusted{
+#banner, #courses, #elearning, #register, #faq, #trusted{
     margin-bottom: 7rem;
 }
+
 .primary-clr{
     color: #4A4A4A;
 }
@@ -115,6 +116,9 @@ footer>div{
 
     footer>div{
         height: 332px;
+    }
+    .section-header{
+        font-size: 30px;
     }
     
 
