@@ -119,6 +119,13 @@ footer>div{
     footer>div{
         height: 332px;
     }
+
+    #elearning .section-header{
+        font-size: 25px !important;
+    }
+    #elearning p{
+        font-size: 14px;
+    }
     
 
 }
